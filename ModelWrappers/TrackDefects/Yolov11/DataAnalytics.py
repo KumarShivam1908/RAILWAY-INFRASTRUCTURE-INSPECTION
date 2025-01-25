@@ -129,8 +129,8 @@ class YOLODatasetReporter:
 # Example usage
 if __name__ == "__main__":
     try:
-        dataset_path = r'C:\Users\shiva\Desktop\EXCEED\Railway-Track-3'
-        output_dir = r'C:\Users\shiva\Desktop\EXCEED\results\YOLOV11_Dataset_Analytics'
+        dataset_path = r'C:\Users\shiva\Desktop\EXCEED\Dataset\bridge-damage-detection-Yolo'
+        output_dir = r'C:\Users\shiva\Desktop\EXCEED\results\BridgeInspection\DETR-YOLOV11-Results'
         reporter = YOLODatasetReporter(dataset_path, output_dir)
         reporter.generate_comprehensive_report()
     except Exception as e:

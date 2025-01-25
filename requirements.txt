@@ -11,3 +11,5 @@ pandas
 scikit-image
 pycocotools
 torchmetrics
+transformers
+torchinfo

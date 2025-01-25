@@ -13,13 +13,13 @@ class DataLoader:
         """Setup Roboflow connection."""
         try:
             self.rf = Roboflow(api_key=self.api_key)
-            self.project = self.rf.workspace("intel-challenge").project("railway-track-fhwzr")
+            self.project = self.rf.workspace("bridge-damage-detection-using-yolov5").project("bridge-damage-detection")
             return True
         except Exception as e:
             print(f"Error setting up Roboflow: {e}")
             return False
 
-    def download_dataset(self, version_num=3, format="coco"):
+    def download_dataset(self, version_num=2, format="yolov11"):
         """Download dataset with specified version and format."""
         try:
             if not self.project:
