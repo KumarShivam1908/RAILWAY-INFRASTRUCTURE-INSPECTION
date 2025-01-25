@@ -1,0 +1,13 @@
+roboflow
+ultralytics==8.3.40
+supervision
+numpy
+opencv-python
+matplotlib
+pydicom
+imgaug
+tqdm
+pandas
+scikit-image
+pycocotools
+torchmetrics

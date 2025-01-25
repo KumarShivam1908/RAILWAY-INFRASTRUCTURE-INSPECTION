@@ -1,0 +1,43 @@
+# Datasets
+Dataset/
+Railway-Track-3/
+*.zip
+*.tar.gz
+
+# Model weights and checkpoints
+*.pth
+*.pt
+*.h5
+*.hdf5
+*.ckpt
+weights/
+checkpoints/
+runs/
+
+# Cache and temporary files
+__pycache__/
+*.py[cod]
+*$py.class
+.ipynb_checkpoints/
+*.swp
+
+# Environment
+.env
+venv/
+env/
+.vscode/
+
+# System specific
+.DS_Store
+Thumbs.db
+
+
+# Results and logs
+results/
+*.csv
+*.yaml
+logs/
+
+# Git line endings
+*.yaml text eol=lf
+
