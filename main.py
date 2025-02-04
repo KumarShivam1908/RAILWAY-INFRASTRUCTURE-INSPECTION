@@ -6,6 +6,7 @@ from Profiling.TensorRT_Wrapper import TensorRTWrapper
 from Profiling.profiler import ModelProfiler
 
 async def main():
+    
     '''
     # Ensure the assets directory exists
     os.makedirs('assets', exist_ok=True)
