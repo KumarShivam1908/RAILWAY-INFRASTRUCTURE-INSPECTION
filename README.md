@@ -66,38 +66,92 @@
     </table>
 </div>
 
- Railway Track Defects
- Impact of Railway Track Defects
- 1.
- 2.
- 3.
- 4.
- Financial Losses
- Track defects contribute to frequent derailments and maintenance costs, leading to ₹300 crore in losses for
- Indian Railways.
- Causes of Track Defects
- Wear & Tear: Continuous train movement causes cracks, misalignments, and rail fractures.
- Weather Conditions: Extreme heat, cold, and waterlogging weaken tracks.
- Poor Maintenance: Delayed inspections lead to unnoticed defects, increasing risks.
- Infrastructure & Train Damage
- Track Failures – Broken or misaligned rails cause derailments and slow operations.
- Engine & Coach Damage – Sudden jolts from faulty tracks damage rolling stock.
- Signaling System Disruptions – Track failures interfere with electronic safety systems.
- Real-Life Incidents
- Derailments (2018-2021): 70% of train accidents were linked to track failures.
- Amritsar Train Disaster (2018): Poor track conditions contributed to 61 deaths
+## Railway Track Defects Detection
 
-Accidents and their reason
- ![img](/assets/11.png)
+<div align="center">
+    <img src="/assets/11.png" alt="Track Accidents and Reasons" width="700">
+    <p><i>Analysis of Railway Accidents: Track Defects as Primary Cause</i></p>
+</div>
 
- Dataset Info
- ![img](/assets/12.png)
+### Impact of Railway Track Defects
 
-  MOdel used :: rcnn, yolov11, florence
-  ![img](/assets/13.png)
+<div align="center">
+    <table>
+        <tr>
+            <td align="center" width="50%">
+                <h4>Financial Implications</h4>
+                <p>Track defects contribute to frequent derailments and maintenance costs, leading to <b>₹300 crore in losses</b> for Indian Railways annually.</p>
+            </td>
+            <td align="center" width="50%">
+                <h4>Safety Concerns</h4>
+                <p>Between 2018-2021, <b>70% of train accidents</b> were linked to track failures, including the Amritsar disaster (2018) where poor track conditions contributed to 61 fatalities.</p>
+            </td>
+        </tr>
+    </table>
+</div>
 
-  Results 
-  ![img](/assets/15.png)
+### Primary Causes of Track Defects
+
+<div align="center">
+    <table>
+        <tr>
+            <td align="center" width="33%">
+                <h4>Wear & Tear</h4>
+                <p>Continuous train movement causes cracks, misalignments, and rail fractures over time.</p>
+            </td>
+            <td align="center" width="33%">
+                <h4>Weather Conditions</h4>
+                <p>Extreme heat, cold, and waterlogging significantly weaken track infrastructure.</p>
+            </td>
+            <td align="center" width="33%">
+                <h4>Poor Maintenance</h4>
+                <p>Delayed inspections lead to unnoticed defects, dramatically increasing operational risks.</p>
+            </td>
+        </tr>
+    </table>
+</div>
+
+### Infrastructure & Train Damage
+
+<div align="center">
+    <table>
+        <tr>
+            <td align="center" width="33%">
+                <h4>Track Failures</h4>
+                <p>Broken or misaligned rails cause derailments and slow operations.</p>
+            </td>
+            <td align="center" width="33%">
+                <h4>Engine & Coach Damage</h4>
+                <p>Sudden jolts from faulty tracks damage expensive rolling stock.</p>
+            </td>
+            <td align="center" width="33%">
+                <h4>Signaling Disruptions</h4>
+                <p>Track failures interfere with electronic safety systems, compromising safety protocols.</p>
+            </td>
+        </tr>
+    </table>
+</div>
+
+### Dataset Information & Technical Implementation
+
+<div align="center">
+    <img src="/assets/12.png" alt="Track Defect Dataset" width="700">
+    <p><i>Comprehensive Dataset for Track Defect Detection</i></p>
+</div>
+
+### Detection Models & Architecture
+
+<div align="center">
+    <img src="/assets/13.png" alt="Detection Models" width="700">
+    <p><i>Advanced models implemented: R-CNN, YOLOv11, and Florence architectures</i></p>
+</div>
+
+### Detection Results
+
+<div align="center">
+    <img src="/assets/15.png" alt="Track Defect Detection Results" width="700">
+    <p><i>Track defect detection performance metrics and sample visualizations</i></p>
+</div>
 
 
   Obstacle Detection and Inspection
