@@ -52,9 +52,9 @@
 <div align="center">
 <div style="display: flex; justify-content: space-around; flex-wrap: wrap; gap: 20px; margin-bottom: 30px;">
 <div style="flex: 1; min-width: 300px; border-radius: 8px; padding: 15px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); background: #f8f9fa;">
-<h4>🔍 HEDGE-Z Detection Model</h4>
+<h4>🔍Detection Models</h4>
 <div style="margin: 15px 0;">
-<img src="/assets/8.png" alt="HEDGE-Z Model Results" width="100%" style="border-radius: 6px;">
+<img src="/assets/8.png" alt="Model Results" width="100%" style="border-radius: 6px;">
 </div>
 <p><strong>Core Technology:</strong> Transfer learning implementation using DINO v2 architecture</p>
 <p><strong>Specialization:</strong> Optimized for detecting fine cracks and structural anomalies</p>
@@ -190,19 +190,33 @@
 <div align="center">
     <img src="/assets/15.png" alt="Detection Results" width="700">
 
-Obstacle Detection and Inspection
+## Obstacle Detection and Inspection
 
-![img](/assets/16.png)
+<div align="center">
+    <img src="/assets/16.png" alt="Obstacle Detection Overview" width="700">
+    <p><i>Advanced obstacle detection system for railway safety</i></p>
+</div>
 
-Dataset info
+### Dataset Information
 
-![img](/assets/17.png)
+<div align="center">
+    <img src="/assets/17.png" alt="Obstacle Dataset Details" width="700">
+    <p><i>Comprehensive dataset used for training our obstacle detection models</i></p>
+</div>
 
-Result
+### Detection Results
 
-![img](/assets/18.png)
+<div align="center">
+    <img src="/assets/18.png" alt="Obstacle Detection Results" width="700">
+    <p><i>Performance metrics of our obstacle detection system</i></p>
+</div>
 
-Approach
+### Technical Approach
 
-![img](/assets/19.png)
-![img](/assets/20)
+<div align="center">
+    <img src="/assets/19.png" alt="Obstacle Detection Approach Part 1" width="700">
+    <p><i>Implementation architecture and methodology</i></p>
+    
+    <img src="/assets/20.png" alt="Obstacle Detection Approach Part 2" width="700">
+    <p><i>Advanced features and deployment strategy</i></p>
+</div>
