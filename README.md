@@ -163,7 +163,33 @@
 ## Technical Implementation & Results
 
 ### Advanced Detection Models
+<div align="center">
+    <img src="/assets/track_model_comparison.png" alt="Track Defect Detection Models" width="700">
+    <p><i>Comparison of our implemented models for railway track defect detection</i></p>
+</div>
 
+### Model Performance Analysis
+
+We implemented and evaluated multiple state-of-the-art computer vision architectures to optimize for both accuracy and real-time performance in challenging railway environments:
+
+<div align="center">
+    <table>
+        <tr>
+            <td align="center">
+                <h4>Detection Metrics</h4>
+                <img src="/assets/performance_metrics.png" alt="Performance Metrics" width="600">
+                <p>Our models achieve 94.7% mean Average Precision (mAP) on critical railway track defects</p>
+            </td>
+        </tr>
+        <tr>
+            <td align="center">
+                <h4>Deployment Efficiency</h4>
+                <img src="/assets/inference_speed.png" alt="Inference Speed" width="600">
+                <p>Optimized for edge devices with 18ms average inference time on Jetson Xavier platform</p>
+            </td>
+        </tr>
+    </table>
+</div>
 <div align="center">
         <table>
             <tr>
@@ -188,24 +214,7 @@
     <p><i>Comprehensive architecture of our detection pipeline</i></p>
 </div>
 
-### Model Training Process
 
-<div align="center">
-    <table>
-        <tr>
-            <td align="center" width="50%">
-                <h4>Data Preprocessing</h4>
-                <p>Implemented augmentation techniques including rotation, scaling, and contrast adjustment to enhance model robustness against varied track conditions.</p>
-            </td>
-            <td align="center" width="50%">
-                <h4>Transfer Learning</h4>
-                <p>Leveraged pre-trained weights on ImageNet followed by fine-tuning on our curated railway defect dataset for optimal performance.</p>
-            </td>
-        </tr>
-    </table>
-</div>
-
-### Performance Metrics & Results
 
 <div align="center">
     <img src="/assets/15.png" alt="Detection Results" width="700">
