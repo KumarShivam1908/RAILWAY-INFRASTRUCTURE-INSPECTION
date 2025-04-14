@@ -47,23 +47,32 @@
     <img src="/assets/dataset_bridge.png" alt="Bridge Dataset Details" width="700">
 </div>
 
-### Our Technical Approach
+### Our Technical Approach for Bridge Inspection
 
 <div align="center">
-    <table>
-        <tr>
-            <td align="center" width="50%">
-                <h4>HEDGE-Z Detection Model</h4>
-                <p>Transfer learning implementation using DINO v2 architecture</p>
-                <kbd><img src="/assets/8.png" alt="HEDGE-Z Model Results" width="300"></kbd>
-            </td>
-            <td align="center" width="50%">
-                <h4>YOLOv11 Implementation</h4>
-                <p>State-of-the-art object detection for structural defects</p>
-                <kbd><img src="/assets/9.png" alt="YOLOv11 Results" width="300"></kbd>
-            </td>
-        </tr>
-    </table>
+<div style="display: flex; justify-content: space-around; flex-wrap: wrap; gap: 20px; margin-bottom: 30px;">
+<div style="flex: 1; min-width: 300px; border-radius: 8px; padding: 15px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); background: #f8f9fa;">
+<h4>🔍 HEDGE-Z Detection Model</h4>
+<div style="margin: 15px 0;">
+<img src="/assets/8.png" alt="HEDGE-Z Model Results" width="100%" style="border-radius: 6px;">
+</div>
+<p><strong>Core Technology:</strong> Transfer learning implementation using DINO v2 architecture</p>
+<p><strong>Specialization:</strong> Optimized for detecting fine cracks and structural anomalies</p>
+</div>
+
+<div style="flex: 1; min-width: 300px; border-radius: 8px; padding: 15px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); background: #f8f9fa;">
+<h4>⚡ YOLOv11 Implementation</h4>
+<div style="margin: 15px 0;">
+<img src="/assets/9.png" alt="YOLOv11 Results" width="100%" style="border-radius: 6px;">
+</div>
+<p><strong>Core Technology:</strong> State-of-the-art object detection for structural defects</p>
+<p><strong>Specialization:</strong> Real-time detection with high precision in varying lighting conditions</p>
+</div>
+</div>
+
+<div style="width: 100%; height: 4px; background: linear-gradient(90deg, #3498db, #2ecc71); margin: 20px 0; border-radius: 2px;"></div>
+
+<p><i>Our dual-model approach combines the strengths of both architectures to achieve superior bridge defect detection performance</i></p>
 </div>
 
 ## Railway Track Defects Detection
