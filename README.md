@@ -78,7 +78,6 @@
 ## Railway Track Defects Detection
 
 <div align="center">
-    <img src="/assets/track_defect_banner.png" alt="Railway Track Defect Banner" width="700">
     <p><i>Ensuring railway safety through advanced track defect detection</i></p>
 </div>
 
@@ -214,3 +213,13 @@
     <p><i>Implementation architecture and methodology</i></p>
 
 </div>
+
+## Project Recognition
+
+This project was a contribution to the Wabtec Corporation's Exceed 3.0 Hackathon, where our team achieved **2nd Runner Up** position.
+
+### Press Coverage:
+- [Wabtec Corporation Press Release](https://www.wabteccorp.com/newsroom/press-releases/wabtec-announces-winners-for-its-exceed-30-campus-challenge-in-india)
+- [Rail Analysis](https://railanalysis.in/rail-news/wabtec-announces-winners-of-exceed-3-0-campus-challenge-in-india-showcasing-future-ready-rail-innovations/)
+- [Market Screener](https://www.marketscreener.com/quote/stock/WESTINGHOUSE-AIR-BRAKE-TE-14842/news/Wabtec-Announces-Winners-for-Its-Exceed-3-0-Campus-Challenge-in-India-48952822/)
+- [APN News](https://www.apnnews.com/wabtec-announces-winners-for-its-exceed-3-0-campus-challenge-in-india/)
