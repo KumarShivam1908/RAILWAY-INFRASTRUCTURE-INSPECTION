@@ -80,12 +80,12 @@
         <tr>
             <td align="center" width="50%">
                 <h4>Financial Implications</h4>
-                <kbd><img src="/assets/financial_impact_logo.png" alt="Financial Impact" width="100"></kbd>
+                <kbd><img src="/assets/money-management.png" alt="Financial Impact" width="100"></kbd>
                 <p>Track defects contribute to frequent derailments and maintenance costs, leading to <b>₹300 crore</b> in annual losses for Indian Railways.</p>
             </td>
             <td align="center" width="50%">
                 <h4>Safety Concerns</h4>
-                <kbd><img src="/assets/safety_logo.png" alt="Safety Icon" width="100"></kbd>
+                <kbd><img src="/assets/shield.png" alt="Safety Icon" width="100"></kbd>
                 <p>Between 2018-2021, <b>70%</b> of train accidents were directly linked to track failures, including the Amritsar disaster (2018) with 61 casualties.</p>
             </td>
         </tr>
