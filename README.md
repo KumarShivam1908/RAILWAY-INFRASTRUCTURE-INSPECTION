@@ -210,28 +210,8 @@
 <div align="center">
     <img src="/assets/15.png" alt="Detection Results" width="700">
     <p><i>Comparative analysis of detection models across precision, recall, and inference speed</i></p>
-    
-<table>
-    <tr>
-        <td align="center" width="33%">
-            <h4>Accuracy</h4>
-            <p><b>98.7%</b> overall detection accuracy for critical track defects with YOLOv11, representing a 12% improvement over baseline systems.</p>
-        </td>
-        <td align="center" width="33%">
-            <h4>Inference Speed</h4>
-            <p>Real-time detection at <b>45 FPS</b> on edge devices, enabling immediate alerts for track maintenance crews.</p>
-        </td>
-        <td align="center" width="33%">
-            <h4>Deployment Efficiency</h4>
-            <p>Model optimization reduced memory footprint by <b>60%</b>, allowing integration with existing railway monitoring systems.</p>
-        </td>
-    </tr>
-</table>
 
-<img src="/assets/model_comparison_logo.png" alt="Model Comparison" width="150">
-
-
-  Obstacle Detection and Inspection
+Obstacle Detection and Inspection
 
 ![img](/assets/16.png)
 
