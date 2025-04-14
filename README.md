@@ -214,12 +214,25 @@
 
 </div>
 
-## Project Recognition
+## 🏆 Project Recognition
 
-This project was a contribution to the Wabtec Corporation's Exceed 3.0 Hackathon, where our team achieved **2nd Runner Up** position.
+This project was a contribution to the **Wabtec Corporation's Exceed 3.0 Hackathon**, where our team achieved **2nd Runner Up** position out of numerous competing teams.
 
-### Press Coverage:
-- [Wabtec Corporation Press Release](https://www.wabteccorp.com/newsroom/press-releases/wabtec-announces-winners-for-its-exceed-30-campus-challenge-in-india)
-- [Rail Analysis](https://railanalysis.in/rail-news/wabtec-announces-winners-of-exceed-3-0-campus-challenge-in-india-showcasing-future-ready-rail-innovations/)
-- [Market Screener](https://www.marketscreener.com/quote/stock/WESTINGHOUSE-AIR-BRAKE-TE-14842/news/Wabtec-Announces-Winners-for-Its-Exceed-3-0-Campus-Challenge-in-India-48952822/)
-- [APN News](https://www.apnnews.com/wabtec-announces-winners-for-its-exceed-3-0-campus-challenge-in-india/)
+### 🎉 Achievements & Press Coverage
+
+We're honored that our work was recognized by both Wabtec and industry publications:
+
+- **[Wabtec Corporation Press Release](https://www.wabteccorp.com/newsroom/press-releases/wabtec-announces-winners-for-its-exceed-30-campus-challenge-in-india)**  
+  Official announcement from Wabtec about the hackathon winners
+
+- **[Rail Analysis](https://railanalysis.in/rail-news/wabtec-announces-winners-of-exceed-3-0-campus-challenge-in-india-showcasing-future-ready-rail-innovations/)**  
+  Industry coverage highlighting the future-ready rail innovations
+
+- **[Market Screener](https://www.marketscreener.com/quote/stock/WESTINGHOUSE-AIR-BRAKE-TE-14842/news/Wabtec-Announces-Winners-for-Its-Exceed-3-0-Campus-Challenge-in-India-48952822/)**  
+  Financial markets coverage of the event
+
+- **[APN News](https://www.apnnews.com/wabtec-announces-winners-for-its-exceed-3-0-campus-challenge-in-india/)**  
+  Additional press coverage of the competition results
+
+> *"The Exceed 3.0 challenge showcased innovative solutions that demonstrate the bright future of rail technology."*  
+> — Wabtec Corporation
