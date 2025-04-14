@@ -220,6 +220,8 @@ This project was a contribution to the **Wabtec Corporation's Exceed 3.0 Hackath
 
 ### 🎉 Achievements & Press Coverage
 
+![img](/assets/All-3-winners-1536x1025.jpg)
+
 We're honored that our work was recognized by both Wabtec and industry publications:
 
 - **[Wabtec Corporation Press Release](https://www.wabteccorp.com/newsroom/press-releases/wabtec-announces-winners-for-its-exceed-30-campus-challenge-in-india)**  
