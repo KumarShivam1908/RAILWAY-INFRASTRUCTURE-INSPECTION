@@ -99,17 +99,17 @@
         <tr>
             <td align="center" width="33%">
                 <h4>Wear & Tear</h4>
-                <kbd><img src="/assets/wear_tear_logo.png" alt="Wear and Tear" width="80"></kbd>
+                <kbd><img src="/assets/breaking.png" alt="Wear and Tear" width="80"></kbd>
                 <p>Continuous train movement causes cracks, misalignments, and rail fractures over time.</p>
             </td>
             <td align="center" width="33%">
                 <h4>Weather Conditions</h4>
-                <kbd><img src="/assets/weather_logo.png" alt="Weather Conditions" width="80"></kbd>
+                <kbd><img src="/assets/weather-news.png" alt="Weather Conditions" width="80"></kbd>
                 <p>Extreme heat, cold, and waterlogging significantly weaken track infrastructure.</p>
             </td>
             <td align="center" width="33%">
                 <h4>Poor Maintenance</h4>
-                <kbd><img src="/assets/maintenance_logo.png" alt="Maintenance Issues" width="80"></kbd>
+                <kbd><img src="/assets/maintainance.png" alt="Maintenance Issues" width="80"></kbd>
                 <p>Delayed inspections lead to unnoticed defects, substantially increasing safety risks.</p>
             </td>
         </tr>
