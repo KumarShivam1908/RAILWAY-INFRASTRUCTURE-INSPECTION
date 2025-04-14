@@ -163,33 +163,7 @@
 ## Technical Implementation & Results
 
 ### Advanced Detection Models
-<div align="center">
-    <img src="/assets/track_model_comparison.png" alt="Track Defect Detection Models" width="700">
-    <p><i>Comparison of our implemented models for railway track defect detection</i></p>
-</div>
 
-### Model Performance Analysis
-
-We implemented and evaluated multiple state-of-the-art computer vision architectures to optimize for both accuracy and real-time performance in challenging railway environments:
-
-<div align="center">
-    <table>
-        <tr>
-            <td align="center">
-                <h4>Detection Metrics</h4>
-                <img src="/assets/performance_metrics.png" alt="Performance Metrics" width="600">
-                <p>Our models achieve 94.7% mean Average Precision (mAP) on critical railway track defects</p>
-            </td>
-        </tr>
-        <tr>
-            <td align="center">
-                <h4>Deployment Efficiency</h4>
-                <img src="/assets/inference_speed.png" alt="Inference Speed" width="600">
-                <p>Optimized for edge devices with 18ms average inference time on Jetson Xavier platform</p>
-            </td>
-        </tr>
-    </table>
-</div>
 <div align="center">
         <table>
             <tr>
@@ -213,8 +187,6 @@ We implemented and evaluated multiple state-of-the-art computer vision architect
     <img src="/assets/13.png" alt="Models Architecture" width="700">
     <p><i>Comprehensive architecture of our detection pipeline</i></p>
 </div>
-
-
 
 <div align="center">
     <img src="/assets/15.png" alt="Detection Results" width="700">
