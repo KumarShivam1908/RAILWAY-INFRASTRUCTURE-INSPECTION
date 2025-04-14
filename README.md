@@ -185,12 +185,10 @@
             </tr>
         </table>
     <img src="/assets/13.png" alt="Models Architecture" width="700">
-    <p><i>Comprehensive architecture of our detection pipeline</i></p>
 </div>
 
 <div align="center">
     <img src="/assets/15.png" alt="Detection Results" width="700">
-    <p><i>Comparative analysis of detection models across precision, recall, and inference speed</i></p>
 
 Obstacle Detection and Inspection
 
