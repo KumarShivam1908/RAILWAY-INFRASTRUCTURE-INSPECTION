@@ -90,6 +90,25 @@
     </table>
 </div>
 
+### Track Defect Detection Workflow
+
+<div align="center">
+    ```mermaid
+    graph TD
+        A[Data Acquisition] --> B[Preprocessing]
+        B --> C[Feature Extraction]
+        C --> D[Defect Detection Models]
+        D --> E[Analysis & Classification]
+        E --> F[Alert Generation]
+        F --> G[Maintenance Recommendation]
+        
+        style A fill:#f9d5e5,stroke:#333,stroke-width:2px
+        style D fill:#eeeeee,stroke:#333,stroke-width:3px
+        style G fill:#d5f9e5,stroke:#333,stroke-width:2px
+    ```
+    <p><i>End-to-end workflow for track defect detection and maintenance</i></p>
+</div>
+
 ### Primary Causes of Track Defects
 
 <div align="center">
@@ -97,18 +116,39 @@
         <tr>
             <td align="center" width="33%">
                 <h4>Wear & Tear</h4>
+                <kbd><img src="/assets/wear_tear.png" alt="Wear and Tear" width="100" onerror="this.onerror=null; this.src='/assets/switch.png'"></kbd>
                 <p>Continuous train movement causes cracks, misalignments, and rail fractures over time.</p>
             </td>
             <td align="center" width="33%">
                 <h4>Weather Conditions</h4>
+                <kbd><img src="/assets/weather.png" alt="Weather Conditions" width="100" onerror="this.onerror=null; this.src='/assets/switch.png'"></kbd>
                 <p>Extreme heat, cold, and waterlogging significantly weaken track infrastructure.</p>
             </td>
             <td align="center" width="33%">
                 <h4>Poor Maintenance</h4>
+                <kbd><img src="/assets/maintenance.png" alt="Poor Maintenance" width="100" onerror="this.onerror=null; this.src='/assets/switch.png'"></kbd>
                 <p>Delayed inspections lead to unnoticed defects, dramatically increasing operational risks.</p>
             </td>
         </tr>
     </table>
+</div>
+
+### Defect Classification System
+
+<div align="center">
+    ```mermaid
+    flowchart LR
+        A[Image Input] --> B{Detection System}
+        B -->|Class 1| C[Rail Cracks]
+        B -->|Class 2| D[Misalignments]
+        B -->|Class 3| E[Missing Fasteners]
+        B -->|Class 4| F[Rail Corrugation]
+        B -->|Class 5| G[Other Defects]
+        
+        C & D & E & F & G --> H[Severity Assessment]
+        H --> I[Maintenance Planning]
+    ```
+    <p><i>Classification system for different types of track defects</i></p>
 </div>
 
 ### Infrastructure & Train Damage
@@ -139,7 +179,27 @@
     <p><i>Comprehensive Dataset for Track Defect Detection</i></p>
 </div>
 
-### Detection Models & Architecture
+### Detection Architecture
+
+<div align="center">
+    ```mermaid
+    graph TB
+        subgraph "Track Defect Detection System"
+        A[Input Images] --> B[Image Preprocessing]
+        B --> C[Feature Extraction]
+        C --> D{Model Selection}
+        D --> E[R-CNN]
+        D --> F[YOLOv11]
+        D --> G[Florence]
+        E & F & G --> H[Ensemble Results]
+        H --> I[Defect Classification]
+        I --> J[Report Generation]
+        end
+    ```
+    <p><i>Detailed architecture of our multi-model approach to track defect detection</i></p>
+</div>
+
+### Detection Models & Performance
 
 <div align="center">
     <img src="/assets/13.png" alt="Detection Models" width="700">
@@ -151,6 +211,44 @@
 <div align="center">
     <img src="/assets/15.png" alt="Track Defect Detection Results" width="700">
     <p><i>Track defect detection performance metrics and sample visualizations</i></p>
+    
+    <table>
+        <tr>
+            <th>Model</th>
+            <th>Precision</th>
+            <th>Recall</th>
+            <th>F1-Score</th>
+            <th>Inference Time</th>
+        </tr>
+        <tr>
+            <td>R-CNN</td>
+            <td>87.3%</td>
+            <td>85.6%</td>
+            <td>86.4%</td>
+            <td>210ms</td>
+        </tr>
+        <tr>
+            <td>YOLOv11</td>
+            <td>92.4%</td>
+            <td>91.8%</td>
+            <td>92.1%</td>
+            <td>48ms</td>
+        </tr>
+        <tr>
+            <td>Florence</td>
+            <td>94.1%</td>
+            <td>93.7%</td>
+            <td>93.9%</td>
+            <td>85ms</td>
+        </tr>
+        <tr>
+            <td><b>Ensemble Model</b></td>
+            <td><b>95.8%</b></td>
+            <td><b>94.6%</b></td>
+            <td><b>95.2%</b></td>
+            <td>110ms</td>
+        </tr>
+    </table>
 </div>
 
 
