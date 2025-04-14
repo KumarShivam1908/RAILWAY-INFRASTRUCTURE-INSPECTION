@@ -192,10 +192,6 @@
 
 ## Obstacle Detection and Inspection
 
-<div align="center">
-    <img src="/assets/16.png" alt="Obstacle Detection Overview" width="700">
-    <p><i>Advanced obstacle detection system for railway safety</i></p>
-</div>
 
 ### Dataset Information
 
@@ -216,6 +212,5 @@
 <div align="center">
     <img src="/assets/19.png" alt="Obstacle Detection Approach Part 1" width="700">
     <p><i>Implementation architecture and methodology</i></p>
-    <img src="/assets/20.png" alt="Obstacle Detection Approach Part 1" width="700">
-    <p><i>Implementation architecture and methodology</i></p>
+
 </div>
