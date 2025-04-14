@@ -165,26 +165,25 @@
 ### Advanced Detection Models
 
 <div align="center">
-    <table>
-        <tr>
-            <td align="center" width="33%">
-                <h4>R-CNN Framework</h4>
-                <kbd><img src="/assets/rcnn.png" alt="R-CNN" width="80"></kbd>
-                <p>Region-based CNN implementation with feature extraction capabilities for precise track defect localization.</p>
-            </td>
-            <td align="center" width="33%">
-                <h4>YOLOv11 Architecture</h4>
-                <kbd><img src="/assets/roboflow.png" alt="YOLOv11" width="80"></kbd>
-                <p>Real-time detection with improved accuracy and reduced false positives for critical track components.</p>
-            </td>
-            <td align="center" width="33%">
-                <h4>Florence Vision Model</h4>
-                <kbd><img src="/assets/microsoft.png" alt="Florence" width="80"></kbd>
-                <p>Multi-modal foundation model delivering superior performance in varied lighting and weather conditions.</p>
-            </td>
-        </tr>
-    </table>
-    
+        <table>
+            <tr>
+                <td align="center" width="33%">
+                    <h4>R-CNN Framework</h4>
+                    <kbd><img src="/assets/rcnn.png" alt="R-CNN" width="80"></kbd>
+                    <p>Region-based CNN implementation with feature extraction capabilities for precise track defect localization.</p>
+                </td>
+                <td align="center" width="33%">
+                    <h4>YOLOv11 Architecture</h4>
+                    <kbd><img src="/assets/roboflow.png" alt="YOLOv11" width="80"></kbd>
+                    <p>Real-time detection with improved accuracy and reduced false positives for critical track components.</p>
+                </td>
+                <td align="center" width="33%">
+                    <h4>Florence Vision Model</h4>
+                    <kbd><img src="/assets/microsoft.png" alt="Florence" width="80"></kbd>
+                    <p>Multi-modal foundation model delivering superior performance in varied lighting and weather conditions.</p>
+                </td>
+            </tr>
+        </table>
     <img src="/assets/13.png" alt="Models Architecture" width="700">
     <p><i>Comprehensive architecture of our detection pipeline</i></p>
 </div>
@@ -212,25 +211,24 @@
     <img src="/assets/15.png" alt="Detection Results" width="700">
     <p><i>Comparative analysis of detection models across precision, recall, and inference speed</i></p>
     
-    <table>
-        <tr>
-            <td align="center" width="33%">
-                <h4>Accuracy</h4>
-                <p><b>98.7%</b> overall detection accuracy for critical track defects with YOLOv11, representing a 12% improvement over baseline systems.</p>
-            </td>
-            <td align="center" width="33%">
-                <h4>Inference Speed</h4>
-                <p>Real-time detection at <b>45 FPS</b> on edge devices, enabling immediate alerts for track maintenance crews.</p>
-            </td>
-            <td align="center" width="33%">
-                <h4>Deployment Efficiency</h4>
-                <p>Model optimization reduced memory footprint by <b>60%</b>, allowing integration with existing railway monitoring systems.</p>
-            </td>
-        </tr>
-    </table>
-    
-    <img src="/assets/model_comparison_logo.png" alt="Model Comparison" width="150">
-</div>
+<table>
+    <tr>
+        <td align="center" width="33%">
+            <h4>Accuracy</h4>
+            <p><b>98.7%</b> overall detection accuracy for critical track defects with YOLOv11, representing a 12% improvement over baseline systems.</p>
+        </td>
+        <td align="center" width="33%">
+            <h4>Inference Speed</h4>
+            <p>Real-time detection at <b>45 FPS</b> on edge devices, enabling immediate alerts for track maintenance crews.</p>
+        </td>
+        <td align="center" width="33%">
+            <h4>Deployment Efficiency</h4>
+            <p>Model optimization reduced memory footprint by <b>60%</b>, allowing integration with existing railway monitoring systems.</p>
+        </td>
+    </tr>
+</table>
+
+<img src="/assets/model_comparison_logo.png" alt="Model Comparison" width="150">
 
 
   Obstacle Detection and Inspection
