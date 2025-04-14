@@ -160,17 +160,17 @@
         <tr>
             <td align="center" width="33%">
                 <h4>R-CNN Framework</h4>
-                <kbd><img src="/assets/rcnn_icon.png" alt="R-CNN" width="80"></kbd>
+                <kbd><img src="/assets/rcnn.png" alt="R-CNN" width="80"></kbd>
                 <p>Region-based CNN implementation with feature extraction capabilities for precise track defect localization.</p>
             </td>
             <td align="center" width="33%">
                 <h4>YOLOv11 Architecture</h4>
-                <kbd><img src="/assets/yolo_icon.png" alt="YOLOv11" width="80"></kbd>
+                <kbd><img src="/assets/roboflow.png" alt="YOLOv11" width="80"></kbd>
                 <p>Real-time detection with improved accuracy and reduced false positives for critical track components.</p>
             </td>
             <td align="center" width="33%">
                 <h4>Florence Vision Model</h4>
-                <kbd><img src="/assets/florence_icon.png" alt="Florence" width="80"></kbd>
+                <kbd><img src="/assets/microsoft.png" alt="Florence" width="80"></kbd>
                 <p>Multi-modal foundation model delivering superior performance in varied lighting and weather conditions.</p>
             </td>
         </tr>
