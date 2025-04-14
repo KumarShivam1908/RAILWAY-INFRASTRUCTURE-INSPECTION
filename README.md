@@ -10,7 +10,7 @@
         <tr>
             <td align="center" width="33%">
                 <h3>Railway Track Defects</h3>
-                <kbd><img src="/assets/railroad.png" alt="Track Inspection" width="100"></kbd>
+                <kbd><img src="/assets/switch.png" alt="Track Inspection" width="100"></kbd>
                 <p>Identify and analyze defects in railway tracks, reducing risks of derailments and ensuring smooth and safe train movement.</p>
             </td>
             <td align="center" width="33%">
