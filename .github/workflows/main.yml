@@ -1,0 +1,46 @@
+name: Generate Repository Documentation
+
+on:
+  # Automatically trigger on any push to any branch
+  push:
+    branches:
+      - main  # All branches
+
+  # Allow manual trigger from GitHub Actions tab
+  workflow_dispatch:
+
+permissions:
+  contents: write  # Allows pushing changes to the repo
+
+jobs:
+  generate-docs:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.10"
+
+      - name: Install required packages
+        run: pip install google-generativeai
+
+      - name: Run doc-keeper to generate documentation
+        run: python doc-keeper.py
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+
+      - name: Commit and push generated documentation
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions@github.com"
+          git add DOCUMENTATION.md
+          git commit -m "📝 Auto-generated documentation using doc-keeper" || echo "No changes to commit"
+
+          git pull --rebase --strategy-option=theirs origin $(git rev-parse --abbrev-ref HEAD) || echo "Merge issue ignored"
+          git push origin $(git rev-parse --abbrev-ref HEAD) --force
